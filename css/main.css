@@ -1069,7 +1069,7 @@ pre .javascript .function {
   bottom: 19px;
 }
 .header {
-  background: url("../image/磬苑.jpg");
+  background: transparent;
 }
 .header-inner {
   position: relative;
@@ -1807,7 +1807,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #13ffc8;
+  background: #8b4683;
 }
 .links-of-blogroll {
   font-size: 13px;
