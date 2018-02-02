@@ -1,37 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://brainware360.cn/</loc>
-  <lastmod>2018-02-02T00:45:25+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://brainware360.cn/2018/01/31/2018-new-start/</loc>
-  <lastmod>2018-02-02T00:45:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://brainware360.cn/tags/2018/</loc>
-  <lastmod>2018-02-02T00:45:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://brainware360.cn/archives/2018/02/</loc>
-  <lastmod>2018-02-02T00:45:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://brainware360.cn/archives/2018/01/</loc>
-  <lastmod>2018-02-02T00:45:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://brainware360.cn/2018/02/01/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%9B%BE%E7%89%87/</loc>
+    
+    <lastmod>2018-02-02T00:43:43.750Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://brainware360.cn/2018/01/31/2018-new-start/</loc>
+    
+    <lastmod>2018-01-31T06:34:45.793Z</lastmod>
+    
+  </url>
+  
 </urlset>
