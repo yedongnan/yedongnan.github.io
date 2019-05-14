@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.brainware360.cn/"/>
-  <updated>2018-04-12T00:31:31.996Z</updated>
+  <updated>2019-05-14T03:44:03.973Z</updated>
   <id>http://www.brainware360.cn/</id>
   
   <author>
@@ -15,6 +15,22 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>读人类简史</title>
+    <link href="http://www.brainware360.cn/%E8%AF%BB%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2.html"/>
+    <id>http://www.brainware360.cn/读人类简史.html</id>
+    <published>2019-05-14T03:41:48.000Z</published>
+    <updated>2019-05-14T03:44:03.973Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　从7万年前的狩猎采集阶段的智人一直写道智人末日，人类简史摆开了一幅巨大的轮廓，将已知的人类历史试图写尽写透，智人从哪里来，将要走到哪里，智人甚至已经摆脱了大自然的自然选择过程，可以进行智能设计(生物工程、仿生工程、无机化)，可以自己选择大自然的演进，甚至是改变智人自己，演变而成超人类。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>区块链共识算法：实用拜占庭容错机制PBFT</title>
