@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.brainware360.cn/"/>
-  <updated>2018-02-05T06:28:08.601Z</updated>
+  <updated>2018-04-12T00:31:31.996Z</updated>
   <id>http://www.brainware360.cn/</id>
   
   <author>
@@ -15,6 +15,196 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>区块链共识算法：实用拜占庭容错机制PBFT</title>
+    <link href="http://www.brainware360.cn/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%85%B1%E8%AF%86%E7%AE%97%E6%B3%95%EF%BC%9A%E5%AE%9E%E7%94%A8%E6%8B%9C%E5%8D%A0%E5%BA%AD%E5%AE%B9%E9%94%99%E6%9C%BA%E5%88%B6PBFT.html"/>
+    <id>http://www.brainware360.cn/区块链共识算法：实用拜占庭容错机制PBFT.html</id>
+    <published>2018-04-03T01:13:19.000Z</published>
+    <updated>2018-04-12T00:31:31.996Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　共识机制是区块链的核心组成部分，以POW、POS以及DPOS等为代表的共识机制运行需要以代币为基础，即需要发行各自的货币体系来构成各自网络运行的激励机制，而在于节点已经有一定的互信基础且不需要靠代币来支撑整个网络的区块链，传统的共识算法如PBFT、PAXOS、RAFT则派上了用场，PAXOS则是第一个被证明的共识算法。本文限于篇幅，PAXOS和RAFT留待后续。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="区块链" scheme="http://www.brainware360.cn/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>区块链共识机制之权益证明POS和委托权益证明DPOS</title>
+    <link href="http://www.brainware360.cn/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%85%B1%E8%AF%86%E6%9C%BA%E5%88%B6%E4%B9%8B%E6%9D%83%E7%9B%8A%E8%AF%81%E6%98%8EPOS%E5%92%8C%E5%A7%94%E6%89%98%E6%9D%83%E7%9B%8A%E8%AF%81%E6%98%8EDPOS.html"/>
+    <id>http://www.brainware360.cn/区块链共识机制之权益证明POS和委托权益证明DPOS.html</id>
+    <published>2018-03-30T08:10:58.000Z</published>
+    <updated>2018-04-03T01:30:44.024Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　工作量证明算法作为区块链第一个也是目前经受住足够实践检验的一个共识机制，解决的是分布式系统交易信息一致性的问题，在一个去中心化的网络中构建了彼此不信任节点的信任机制，也是比特币成功应用的关键技术环节。&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>区块链的共识机制之工作量证明机制</title>
+    <link href="http://www.brainware360.cn/%E5%8C%BA%E5%9D%97%E9%93%BE%E7%9A%84%E5%85%B1%E8%AF%86%E6%9C%BA%E5%88%B6%E4%B9%8B%E5%B7%A5%E4%BD%9C%E9%87%8F%E8%AF%81%E6%98%8E%E6%9C%BA%E5%88%B6.html"/>
+    <id>http://www.brainware360.cn/区块链的共识机制之工作量证明机制.html</id>
+    <published>2018-03-29T06:42:48.000Z</published>
+    <updated>2018-04-03T01:31:14.879Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　区块链是比特币的底层技术，而比特币本质上是一种数字货币，它和其它运行于互联网的货币形式不同之处在于，其他货币都存在一个中心化的银行等机构为货币的支付效力作保证，而比特币则没有这样一个机构，比特币网络中的每个节点都是平等的，而这又如何确保网络中的每一笔交易是可信的呢？例如，张三支付给李四1个比特币，如何确保张三钱包里确实少了1个比特币，而不会仅仅给了李四一个复制品？&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="区块链" scheme="http://www.brainware360.cn/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>每一个不曾起舞的日子，都是对生命的辜负</title>
+    <link href="http://www.brainware360.cn/%E6%AF%8F%E4%B8%80%E4%B8%AA%E4%B8%8D%E6%9B%BE%E8%B5%B7%E8%88%9E%E7%9A%84%E6%97%A5%E5%AD%90%EF%BC%8C%E9%83%BD%E6%98%AF%E5%AF%B9%E7%94%9F%E5%91%BD%E7%9A%84%E8%BE%9C%E8%B4%9F.html"/>
+    <id>http://www.brainware360.cn/每一个不曾起舞的日子，都是对生命的辜负.html</id>
+    <published>2018-03-13T06:27:04.000Z</published>
+    <updated>2018-03-13T09:11:13.319Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/每一个不曾起舞的日子，都是对生命的辜负/1.JPG&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1990年旅行者号回望地球</title>
+    <link href="http://www.brainware360.cn/%E6%97%85%E8%A1%8C%E8%80%85%E5%8F%B7%E5%9B%9E%E6%9C%9B%E5%9C%B0%E7%90%83.html"/>
+    <id>http://www.brainware360.cn/旅行者号回望地球.html</id>
+    <published>2018-02-12T02:01:29.000Z</published>
+    <updated>2018-02-26T01:05:00.719Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/旅行者号回望地球/暗淡蓝点，圈内即为我们所居住的地球PaleBlueDot.jpg&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>区块链之公有链、私有链及联盟链</title>
+    <link href="http://www.brainware360.cn/%E5%8C%BA%E5%9D%97%E9%93%BE%E4%B9%8B%E5%85%AC%E6%9C%89%E9%93%BE%E3%80%81%E7%A7%81%E6%9C%89%E9%93%BE%E5%8F%8A%E8%81%94%E7%9B%9F%E9%93%BE.html"/>
+    <id>http://www.brainware360.cn/区块链之公有链、私有链及联盟链.html</id>
+    <published>2018-02-11T03:11:29.000Z</published>
+    <updated>2018-03-29T07:47:15.085Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　区块链可以理解为一个保存在所有节点的分布式大账簿，开放性是其鲜明的特点，区块链中的任意节点均可查询每一笔交易信息。比特币即是如此，当然，每一个节点都是匿名的。随着区块链技术从比特币中被提炼出来，为适用于不同类型的应用场景，区块链又在原有比特币的公有链的基础上发展出了私有链以及两者的混合产物，即联盟链。&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>渺远飞河</title>
+    <link href="http://www.brainware360.cn/%E6%B8%BA%E8%BF%9C%E9%A3%9E%E6%B2%B3.html"/>
+    <id>http://www.brainware360.cn/渺远飞河.html</id>
+    <published>2018-02-11T02:11:07.000Z</published>
+    <updated>2018-02-12T01:23:29.466Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/渺远飞河/pexels-photo-355465.jpeg&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>区块链的阶段划分</title>
+    <link href="http://www.brainware360.cn/%E5%8C%BA%E5%9D%97%E9%93%BE%E7%9A%84%E9%98%B6%E6%AE%B5%E5%88%92%E5%88%86.html"/>
+    <id>http://www.brainware360.cn/区块链的阶段划分.html</id>
+    <published>2018-02-08T08:38:59.000Z</published>
+    <updated>2018-03-29T08:04:51.292Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　区块链技术随着比特币出现后，其应用随着进入领域的不同被划分了几个阶段，比较常见的是划分成三个阶段。&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>渔唱晚舟</title>
+    <link href="http://www.brainware360.cn/%E6%B8%94%E5%94%B1%E6%99%9A%E8%88%9F.html"/>
+    <id>http://www.brainware360.cn/渔唱晚舟.html</id>
+    <published>2018-02-07T02:22:31.000Z</published>
+    <updated>2018-02-07T02:23:29.169Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/渔唱晚舟/渔唱晚舟.jpg&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>区块链背后的关键技术</title>
+    <link href="http://www.brainware360.cn/%E5%8C%BA%E5%9D%97%E9%93%BE%E8%83%8C%E5%90%8E%E7%9A%84%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF.html"/>
+    <id>http://www.brainware360.cn/区块链背后的关键技术.html</id>
+    <published>2018-02-07T02:13:59.000Z</published>
+    <updated>2019-05-14T03:32:30.863Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　区块链本质上是一种分布式数据库，其中存储的每一个区块都是一次交易信息，其核心思想主要有三条，一是去中心化，不存在任何中心机构和中心服务器，连它的创始人都没有出来过，实现节点与节点间的直接交互；二是开放和透明性，系统是完全开放透明的，账簿对所有人公开；三是不可篡改和不可撤销性，区块链采取单向哈希算法，每个新产生的区块严格按照时间线形顺序推进，具有不可篡改和不可撤销性。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="区块链 哈希算法" scheme="http://www.brainware360.cn/tags/%E5%8C%BA%E5%9D%97%E9%93%BE-%E5%93%88%E5%B8%8C%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>人行天地间，忽如远行客</title>
@@ -45,11 +235,11 @@
     <link href="http://www.brainware360.cn/%E5%8C%BA%E5%9D%97%E9%93%BE%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F.html"/>
     <id>http://www.brainware360.cn/区块链是什么？.html</id>
     <published>2018-02-05T02:25:46.000Z</published>
-    <updated>2019-05-14T03:31:13.216Z</updated>
+    <updated>2018-02-07T02:55:28.950Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;   区块链是现在很火的一个概念，甚至上升到了“可能是互联网被发明以来最重要的一次底层技术迭代”的程度，那区块链到底是什么呢？它有哪些特点？&lt;/p&gt;
+      &lt;p&gt;　　&lt;br&gt;　　区块链是现在很火的一个概念，甚至上升到了“可能是互联网被发明以来最重要的一次底层技术迭代”的程度，那区块链到底是什么呢？它有哪些特点？&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
