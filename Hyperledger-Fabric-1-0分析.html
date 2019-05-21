@@ -96,13 +96,17 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="夜东南的博客">
-<meta property="og:url" content="http://www.brainware360.cn/archives/2018/03/index.html">
+<meta name="description" content="Hyperledger是linux基金会于2015年发起的推进区块链数字技术和交易验证的开源项目，有多个子集，Fabric是其中最成熟的一个，其由IBM 和Digital Asset最初贡献给Hyperledger项目。Fabric面向的对象主要是联盟链以及私有链等对于加入的节点需要设置一定准入门槛的区块链项目，其也是目前最有希望投入实际运用的区块链。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hyperledger Fabric 1.0分析">
+<meta property="og:url" content="http://www.brainware360.cn/Hyperledger-Fabric-1-0分析.html">
 <meta property="og:site_name" content="夜东南的博客">
+<meta property="og:description" content="Hyperledger是linux基金会于2015年发起的推进区块链数字技术和交易验证的开源项目，有多个子集，Fabric是其中最成熟的一个，其由IBM 和Digital Asset最初贡献给Hyperledger项目。Fabric面向的对象主要是联盟链以及私有链等对于加入的节点需要设置一定准入门槛的区块链项目，其也是目前最有希望投入实际运用的区块链。">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-01-24T02:34:56.116Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="夜东南的博客">
+<meta name="twitter:title" content="Hyperledger Fabric 1.0分析">
+<meta name="twitter:description" content="Hyperledger是linux基金会于2015年发起的推进区块链数字技术和交易验证的开源项目，有多个子集，Fabric是其中最成熟的一个，其由IBM 和Digital Asset最初贡献给Hyperledger项目。Fabric面向的对象主要是联盟链以及私有链等对于加入的节点需要设置一定准入门槛的区块链项目，其也是目前最有希望投入实际运用的区块链。">
 
 
 
@@ -131,13 +135,13 @@
 
 
 
-  <link rel="canonical" href="http://www.brainware360.cn/archives/2018/03/"/>
+  <link rel="canonical" href="http://www.brainware360.cn/Hyperledger-Fabric-1-0分析.html"/>
 
 
 
 
 
-  <title>归档 | 夜东南的博客</title>
+  <title>Hyperledger Fabric 1.0分析 | 夜东南的博客</title>
   
 
 
@@ -172,7 +176,7 @@
     
   
 
-  <div class="container sidebar-position-left  page-archive  ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -300,148 +304,204 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
+  <div id="posts" class="posts-expand">
+    
 
-      <span class="archive-page-counter">
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.brainware360.cn/Hyperledger-Fabric-1-0分析.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="yedongnan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="夜东南的博客">
+    </span>
+
+    
+      <header class="post-header">
+
         
         
+          <h1 class="post-title" itemprop="name headline">Hyperledger Fabric 1.0分析</h1>
         
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-24T10:30:16+08:00">
+                2019-01-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        
-        嗯..! 目前共计 19 篇日志。 继续努力。
-      </span>
 
-      
-
-        
-        
-        
-
-        
           
-          <div class="collection-title">
-            <h2 class="archive-year motion-element" id="archive-year-2018">2018</h2>
-          </div>
-        
-        
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/Hyperledger-Fabric-1-0分析.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="Hyperledger-Fabric-1-0分析.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
 
-        
+          
+          
+             <span id="/Hyperledger-Fabric-1-0分析.html" class="leancloud_visitors" data-flag-title="Hyperledger Fabric 1.0分析">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+          
 
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/区块链共识机制之权益证明POS和委托权益证明DPOS.html" itemprop="url">
-              
-                <span itemprop="name">区块链共识机制之权益证明POS和委托权益证明DPOS</span>
-              
-            </a>
-        
-      </h2>
+          
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-03-30T16:10:58+08:00"
-              content="2018-03-30" >
-          03-30
-        </time>
-      </div>
+          
 
-    </header>
-  </article>
+        </div>
+      </header>
+    
 
-
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/区块链的共识机制之工作量证明机制.html" itemprop="url">
-              
-                <span itemprop="name">区块链的共识机制之工作量证明机制</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-03-29T14:42:48+08:00"
-              content="2018-03-29" >
-          03-29
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/每一个不曾起舞的日子，都是对生命的辜负.html" itemprop="url">
-              
-                <span itemprop="name">每一个不曾起舞的日子，都是对生命的辜负</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-03-13T14:27:04+08:00"
-              content="2018-03-13" >
-          03-13
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
 
+      
+        <p>　　Hyperledger是linux基金会于2015年发起的推进区块链数字技术和交易验证的开源项目，有多个子集，Fabric是其中最成熟的一个，其由IBM 和Digital Asset最初贡献给Hyperledger项目。Fabric面向的对象主要是联盟链以及私有链等对于加入的节点需要设置一定准入门槛的区块链项目，其也是目前最有希望投入实际运用的区块链。</p>
+ <a id="more"></a>    
+<p>　　Fabric是由很多相互通信的节点组成的分布式系统，其上运行的程序称为链码chaincode，保存状态和总账数据，并执行交易。交易必须要获得背书，只有背过书的交易才能被提交，才能使状态生效。链码使整个Fabric的核心，是智能合约在Fabric上的实现形式，部署在Fabric区块链各节点上。这里的节点分为三个类型：</p>
+<p>　　1.    客户端（Client）或者提交客户端（submitting-client）：提交实际交易请求的客户端。客户端表示的是代表终端用户的实体，它必须连接到Peer节点才能和区块链通信。客户端可以根据自己的选择连接到任意一个Peer节点上，创建交易再调用交易</p>
+<p>　　2.    Peer节点：Peer节点通过共识服务通信维护区块链状态和总账。它们从共识服务接收有序的更新状态，然后更新本地维护的状态。Peer节点有两种特殊的角色：</p>
+<p>    　　请求节点（submitting peer或者submitter），请求节点是一种特殊的角色，它给客户端提供接口，这样客户端就可以连接到请求节点调用交易和获取结果。这个Peer节点代表一个或者多个客户端和其他节点通信来执行交易</p>
+<p>    　　背书节点（endorsing peer或者endorser），背书节点的特殊功能是对特定的链码，在其提交交易前对它进行背书。每个链码都可以指定一个背书策略，可能会包含一个背书节点的集合。策略定义了一个有效交易背书（典型情况是背书节点的签名集合）的充要条件</p>
+<p>　　3.    共识服务节点（Consensus-service-node）或（ordering-node）：该节点群构成了共识服务，目前的Fabric共识机制尚未实现PBFT，在用的为Solo（单节点共识）和kafka（分布式队列）和SBFT（简单拜占庭容错），Solo是中心化的共识服务，具体采用哪一种根据应用场景可插拔。</p>
+<p>　　这里需要注意的是，共识服务节点和客户端是不维护区块链状态的，只有Peer节点才有这个权利。</p>
+<p>　　下面概要的描述一下交易的流程：</p>
+<p>　　客户端发送如下的消息给请求节点<submit,tx,retryflag>，retryFlag是一个布尔值，告诉请求节点万一交易失败了要不要重新执行一次；tx包含了客户端的ID号clientID，本次交易所属的链码ID号chaincodeID，客户端的签名信息clientSig以及本次交易的信息部分txPayload等信息，即tx=<clientid,chaincodeid,txpayload,clientsig>。</clientid,chaincodeid,txpayload,clientsig></submit,tx,retryflag></p>
+<p>　　请求节点收到客户端的消息后，首先要验证客户端的签名clientSig，之后请求节点会对交易信息txPayload执行模拟交易，根据结果构成tran-proposal，请求节点会将结果发送给背书节点请求给予背书，消息格式为<propose,tx,tran-proposal>。</propose,tx,tran-proposal></p>
+<p>　　链码chaincodeID对应的背书节点收到请求节点发来的消息后，首先验证签名clientSig，之后同样利用txPayload进行模拟交易，如果通过，则对交易信息进行数字签名，生成epSig，发送消息给请求节点，消息格式<transaction-valid, tid,epsig="">，TRANSACTION-VALID即表明本次交易有效；tid是tran-proposal的哈希值。由于一直到这一步都没有用到共识服务，所以交易信息还没有写进区块。</transaction-valid,></p>
+<p>　　请求节点如果收到足够的背书节点的回复，则称此次交易是有了有效背书的交易，开始启用fabric的共识服务。请求节点使用broadcast(blob)调用共识服务，其中blob=(tran-proposal, endorsement)。<br>　　<br>　　共识服务节点通过deliver(seqno, prevhash, blob)回送给请求节点和为此次交易背过书的背书节点。一次交易完成这所有的操作后这个交易就被认为是有效的（valid）或者提交的（committed），这就是说，这次交易会被添加到总账上。到这一步，算完成了一次 hyperledger fabric v1.0基本的运行流程。</p>
+
+      
     </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>您的支持将是我最大的动力！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="yedongnan WeChat Pay"/>
+        <p>WeChat Pay</p>
+      </div>
+    
+
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/聊聊闪电网络.html" rel="next" title="聊聊闪电网络">
+                <i class="fa fa-chevron-left"></i> 聊聊闪电网络
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/读人类简史.html" rel="prev" title="读《人类简史》">
+                读《人类简史》 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -449,6 +509,17 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -667,11 +738,9 @@
   
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
 
 
   
@@ -690,6 +759,18 @@
       <script id="dsq-count-scr" src="https://.disqus.com/count.js" async></script>
     
 
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://www.brainware360.cn/Hyperledger-Fabric-1-0分析.html';
+          this.page.identifier = 'Hyperledger-Fabric-1-0分析.html';
+          this.page.title = 'Hyperledger Fabric 1.0分析';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
     
 
   
