@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.brainware360.cn/"/>
-  <updated>2019-05-21T02:24:23.223Z</updated>
+  <updated>2019-05-21T02:38:23.812Z</updated>
   <id>http://www.brainware360.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://www.brainware360.cn/Hyperlydger%E5%85%B1%E8%AF%86%E7%AE%97%E6%B3%95%EF%BC%9ASolo%E5%92%8CKafka.html"/>
     <id>http://www.brainware360.cn/Hyperlydger共识算法：Solo和Kafka.html</id>
     <published>2019-05-21T02:22:32.000Z</published>
-    <updated>2019-05-21T02:24:23.223Z</updated>
+    <updated>2019-05-21T02:38:23.812Z</updated>
     
     <summary type="html">
     
@@ -29,6 +29,8 @@
     
     </summary>
     
+    
+      <category term="区块链 Hyperledger" scheme="http://www.brainware360.cn/tags/%E5%8C%BA%E5%9D%97%E9%93%BE-Hyperledger/"/>
     
   </entry>
   
@@ -69,7 +71,7 @@
     <link href="http://www.brainware360.cn/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%85%B1%E8%AF%86%E7%AE%97%E6%B3%95%EF%BC%9A%E5%AE%9E%E7%94%A8%E6%8B%9C%E5%8D%A0%E5%BA%AD%E5%AE%B9%E9%94%99%E6%9C%BA%E5%88%B6PBFT.html"/>
     <id>http://www.brainware360.cn/区块链共识算法：实用拜占庭容错机制PBFT.html</id>
     <published>2018-04-03T01:13:19.000Z</published>
-    <updated>2018-04-12T00:31:31.996Z</updated>
+    <updated>2019-05-21T03:07:09.594Z</updated>
     
     <summary type="html">
     

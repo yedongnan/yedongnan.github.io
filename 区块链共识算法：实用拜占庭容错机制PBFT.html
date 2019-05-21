@@ -105,7 +105,7 @@
 <meta property="og:description" content="共识机制是区块链的核心组成部分，以POW、POS以及DPOS等为代表的共识机制运行需要以代币为基础，即需要发行各自的货币体系来构成各自网络运行的激励机制，而在于节点已经有一定的互信基础且不需要靠代币来支撑整个网络的区块链，传统的共识算法如PBFT、PAXOS、RAFT则派上了用场，PAXOS则是第一个被证明的共识算法。本文限于篇幅，PAXOS和RAFT留待后续。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://www.brainware360.cn/区块链共识算法：实用拜占庭容错机制PBFT/PBFT三阶段协议.png">
-<meta property="og:updated_time" content="2018-04-12T00:31:31.996Z">
+<meta property="og:updated_time" content="2019-05-21T03:07:09.594Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="区块链共识算法：实用拜占庭容错机制PBFT">
 <meta name="twitter:description" content="共识机制是区块链的核心组成部分，以POW、POS以及DPOS等为代表的共识机制运行需要以代币为基础，即需要发行各自的货币体系来构成各自网络运行的激励机制，而在于节点已经有一定的互信基础且不需要靠代币来支撑整个网络的区块链，传统的共识算法如PBFT、PAXOS、RAFT则派上了用场，PAXOS则是第一个被证明的共识算法。本文限于篇幅，PAXOS和RAFT留待后续。">
@@ -422,7 +422,7 @@
 <p>　　确认(commit)阶段：进入这一阶段，某个replica节点向其他replica节点发送信息，信息格式<commit,v,n,d(m),i>。节点收到其他replica节点确认信息后进行验证，仍是验证视图编号v、消息序号n和摘要d是否一致，一致则验证通过。当replica节点收到2f + 1个(包含自身) 验证通过的确认信息后，向客户端反馈执行结果，并将结果写入区块中，即写入区块前，至少有2f + 1个(包含自身)节点达成了共识。</commit,v,n,d(m),i></p>
 <p>　　存在一个确认(commit)阶段的缘由在于，单个replica节点收到2f + 1个(包括自己) PREPARE信息并不能保证自己发出的PREPARE信息已被其他replica节点接收到，即其他节点不一定已经准备好Prepared，需要一个确认(commit)阶段来对此进行验证。</p>
 <p>　　如果连续执行了K条请求，在第K条请求执行完时，向全网发起广播，告诉其他replica节点它已经将这K条执行完毕，要是都反馈说这K条我们也执行完毕了，那就可以删除这K条的信息了，接下来再执行K条，完成后再发起一次广播，即每隔K条发起一次全网共识，这个概念叫checkpoint，每隔K条去征求一下大家的意见，要是获得了大多数的认同，就形成了一个 stable checkpoint（记录在第K条的编号），这一机制被称为“Garbage Collection”。</p>
-<p>　　PBFT是一种静态共识， 在得知有限共识节点的情况可以适用。对于私有链和联盟链，如果节点数不大(不大于100)，可采用PBFT形成共识，公有链拥有大量且不断动态变化的节点网络，用PBFT效率太低。</p>
+<p>　　PBFT是一种静态共识， 在得知有限共识节点的情况可以适用。对于私有链和联盟链，如果节点数不大(不大于100)，可采用PBFT形成共识，公有链拥有大量且不断动态变化的节点网络，PBFT由于其封闭性（节点数目提前确定并互相联通）和高性能开销(O(N^2)的消息量)，以及复杂的view change算法和开销，用PBFT效率太低。</p>
 <p>　　使用PBFT算法还需要注意的一点是，其不能很好的存贮其交易信息，一些失效的副本可能会导致信息外泄，应有相应应对机制。</p>
 <p>我的BTC地址：1K8ni4mnQn7VjFZKjHJHLPWZ55owG9J1jd</p>
 
@@ -579,7 +579,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
