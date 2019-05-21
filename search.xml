@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hyperlydger共识算法：Solo和Kafka]]></title>
+    <title><![CDATA[Hyperlydger Fabric共识算法：Solo和Kafka]]></title>
     <url>%2FHyperlydger%E5%85%B1%E8%AF%86%E7%AE%97%E6%B3%95%EF%BC%9ASolo%E5%92%8CKafka.html</url>
     <content type="text"><![CDATA[Hyperledger Fabric目前支持三种共识算法，分别是Solo，Kafka还有SBFT，SBFT还在还只存在于计划当中，下面以Solo和Kafka进行简单介绍。 Solo是一种单中心化的共识机制，只用于Fabric开始使用时作测试用。只有一个ordering 节点向所有的客户端提供排序服务，可以说Solo称不上是“共识”，仅仅作为fabric的一种辅助支撑存在。一个典型的Solo排序服务如下：客户端通过gRPC与orderer节点建立连接，连接建立orderer收到信息后存入账簿ledger，客户端通过deliver接口获取账簿信息。 Kafka是一种集群时序服务，支持分布式系统中存在部分失效节点，但不能容忍系统中存在恶意节点。 Fabric 1.0的Kafka排序服务的基本工作原理是这样的： Client向排序服务节点OSN发送交易； OSN节点对交易进行相关检查，符合条件之后会将交易发送给Kafka集群； OSN节点从Kafka集群拉取交易消息并对交易消息进行打包将打包之后的交易batch写入本地数据库； OSN节点按客户端Deliver请求从本地数据库读取区块返回； 分区，有序，容错是kafka的三个特性。这里的有序是说在一个分区中的消息被某一个消费者消费时，消息是有序的。换句话说，也就是说对于一个消费者来说，在一个分区内的所有消息是有序的。但是不保证不同分区的数据是有序的。 也正由于这三个特性，可以使用kafka来作为一种“简单粗暴”的共识算法。这里再次强调下共识的定义，所谓的共识是指：在一个时间段内对事物的前后顺序达成共识的一种算法。 kafka的分区有序就保证了kafka可以作为一种共识算法。从工程角度，这种共识算法的安全性较低。但是由于Fabric引入了比较强的身份管理机制，在一定程度上加强了整个系统的安全等级。]]></content>
       <tags>
