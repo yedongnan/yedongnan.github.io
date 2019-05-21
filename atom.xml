@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.brainware360.cn/"/>
-  <updated>2019-05-14T04:11:04.688Z</updated>
+  <updated>2019-05-21T02:24:23.223Z</updated>
   <id>http://www.brainware360.cn/</id>
   
   <author>
@@ -15,6 +15,22 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hyperlydger共识算法：Solo和Kafka</title>
+    <link href="http://www.brainware360.cn/Hyperlydger%E5%85%B1%E8%AF%86%E7%AE%97%E6%B3%95%EF%BC%9ASolo%E5%92%8CKafka.html"/>
+    <id>http://www.brainware360.cn/Hyperlydger共识算法：Solo和Kafka.html</id>
+    <published>2019-05-21T02:22:32.000Z</published>
+    <updated>2019-05-21T02:24:23.223Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　Hyperledger Fabric目前支持三种共识算法，分别是Solo，Kafka还有SBFT，SBFT还在还只存在于计划当中，下面以Solo和Kafka进行简单介绍。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>读《未来简史》</title>
