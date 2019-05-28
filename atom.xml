@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.brainware360.cn/"/>
-  <updated>2019-05-27T14:28:37.920Z</updated>
+  <updated>2019-05-28T14:52:23.470Z</updated>
   <id>http://www.brainware360.cn/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博弈论的三个概念</title>
+    <link href="http://www.brainware360.cn/%E5%8D%9A%E5%BC%88%E8%AE%BA%E7%9A%84%E4%B8%89%E4%B8%AA%E6%A6%82%E5%BF%B5.html"/>
+    <id>http://www.brainware360.cn/博弈论的三个概念.html</id>
+    <published>2019-05-28T14:47:03.000Z</published>
+    <updated>2019-05-28T14:52:23.470Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　博弈论教给我们的是如何理性的做出决策，这种决策的环境结合的博弈双方的互动，根据对手的反应来做出下一步的决定，而不仅仅取决于个人的好恶。现实生活中许多局面都是多方博弈的结果，哪怕你不喜欢，却是当前所有人的最优解。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="博弈论 囚徒困境 帕累托最优 压倒性策略 纳什均衡" scheme="http://www.brainware360.cn/tags/%E5%8D%9A%E5%BC%88%E8%AE%BA-%E5%9B%9A%E5%BE%92%E5%9B%B0%E5%A2%83-%E5%B8%95%E7%B4%AF%E6%89%98%E6%9C%80%E4%BC%98-%E5%8E%8B%E5%80%92%E6%80%A7%E7%AD%96%E7%95%A5-%E7%BA%B3%E4%BB%80%E5%9D%87%E8%A1%A1/"/>
+    
+  </entry>
   
   <entry>
     <title>学点博弈论</title>
@@ -371,30 +389,6 @@
     
     
       <category term="图片" scheme="http://www.brainware360.cn/tags/%E5%9B%BE%E7%89%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2018,new start!</title>
-    <link href="http://www.brainware360.cn/2018-new-start.html"/>
-    <id>http://www.brainware360.cn/2018-new-start.html</id>
-    <published>2018-01-31T06:27:32.000Z</published>
-    <updated>2018-01-31T06:34:45.793Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;你好&quot;&gt;&lt;a href=&quot;#你好&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="2018" scheme="http://www.brainware360.cn/tags/2018/"/>
     
   </entry>
   
