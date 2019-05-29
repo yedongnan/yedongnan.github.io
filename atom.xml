@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.brainware360.cn/"/>
-  <updated>2019-05-28T15:02:22.596Z</updated>
+  <updated>2019-05-29T14:32:28.101Z</updated>
   <id>http://www.brainware360.cn/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博弈论中的聚焦点效应</title>
+    <link href="http://www.brainware360.cn/%E5%8D%9A%E5%BC%88%E8%AE%BA%E4%B8%AD%E7%9A%84%E8%81%9A%E7%84%A6%E7%82%B9%E6%95%88%E5%BA%94.html"/>
+    <id>http://www.brainware360.cn/博弈论中的聚焦点效应.html</id>
+    <published>2019-05-29T14:30:16.000Z</published>
+    <updated>2019-05-29T14:32:28.101Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　博弈论研究的是经济生活中每个人都从自己的利益出发，达成整个社会合作的机制。每个人都可以是非合作的，但在争取自己利益的过程中可以有各种互动，但结果却是大家都遵循一定的规则形成一种有序，均衡的局面。博弈论承认人的自私属性，均衡的状态不是靠用公权力去压迫人被迫遵循，不给你灌输道德感、奉献精神等，这些都难以达成一个长久维持的局面，博弈论可以解释每个自由选择的个人最后导致整个社会的合作与分工机制。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="博弈论 聚焦点" scheme="http://www.brainware360.cn/tags/%E5%8D%9A%E5%BC%88%E8%AE%BA-%E8%81%9A%E7%84%A6%E7%82%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>博弈论的三个概念</title>
@@ -365,30 +383,6 @@
     
     
       <category term="区块链" scheme="http://www.brainware360.cn/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第一个图片：晴夏夕晚</title>
-    <link href="http://www.brainware360.cn/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%9B%BE%E7%89%87.html"/>
-    <id>http://www.brainware360.cn/第一个图片.html</id>
-    <published>2018-02-01T03:08:42.000Z</published>
-    <updated>2018-02-02T00:43:43.750Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;img src=&quot;/第一个图片/晴夏夕晚.jpg&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="图片" scheme="http://www.brainware360.cn/tags/%E5%9B%BE%E7%89%87/"/>
     
   </entry>
   
