@@ -96,20 +96,21 @@
 
 
 
-<meta name="description" content="共识机制是区块链的核心组成部分，以POW、POS以及DPOS等为代表的共识机制运行需要以代币为基础，即需要发行各自的货币体系来构成各自网络运行的激励机制，而在于节点已经有一定的互信基础且不需要靠代币来支撑整个网络的区块链，传统的共识算法如PBFT、PAXOS、RAFT则派上了用场，PAXOS则是第一个被证明的共识算法。本文限于篇幅，PAXOS和RAFT留待后续。">
+<meta name="description" content="共识机制是区块链的核心组成部分，以POW、POS以及DPOS等为代表的共识机制运行需要以代币为基础，即需要发行各自的货币体系来构成各自网络运行的激励机制，而在于节点已经有一定的互信基础且不需要靠代币来支撑整个网络的区块链，传统的一致性算法如PBFT、PAXOS、RAFT则派上了用场，PAXOS则是第一个被证明的共识算法。。">
 <meta name="keywords" content="区块链">
 <meta property="og:type" content="article">
 <meta property="og:title" content="区块链共识算法：实用拜占庭容错机制PBFT">
 <meta property="og:url" content="http://www.brainware360.cn/区块链共识算法：实用拜占庭容错机制PBFT.html">
 <meta property="og:site_name" content="夜东南的博客">
-<meta property="og:description" content="共识机制是区块链的核心组成部分，以POW、POS以及DPOS等为代表的共识机制运行需要以代币为基础，即需要发行各自的货币体系来构成各自网络运行的激励机制，而在于节点已经有一定的互信基础且不需要靠代币来支撑整个网络的区块链，传统的共识算法如PBFT、PAXOS、RAFT则派上了用场，PAXOS则是第一个被证明的共识算法。本文限于篇幅，PAXOS和RAFT留待后续。">
+<meta property="og:description" content="共识机制是区块链的核心组成部分，以POW、POS以及DPOS等为代表的共识机制运行需要以代币为基础，即需要发行各自的货币体系来构成各自网络运行的激励机制，而在于节点已经有一定的互信基础且不需要靠代币来支撑整个网络的区块链，传统的一致性算法如PBFT、PAXOS、RAFT则派上了用场，PAXOS则是第一个被证明的共识算法。。">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://www.brainware360.cn/区块链共识算法：实用拜占庭容错机制PBFT/raft.png">
 <meta property="og:image" content="http://www.brainware360.cn/区块链共识算法：实用拜占庭容错机制PBFT/PBFT三阶段协议.png">
-<meta property="og:updated_time" content="2019-05-21T03:07:09.594Z">
+<meta property="og:updated_time" content="2019-06-05T02:30:24.294Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="区块链共识算法：实用拜占庭容错机制PBFT">
-<meta name="twitter:description" content="共识机制是区块链的核心组成部分，以POW、POS以及DPOS等为代表的共识机制运行需要以代币为基础，即需要发行各自的货币体系来构成各自网络运行的激励机制，而在于节点已经有一定的互信基础且不需要靠代币来支撑整个网络的区块链，传统的共识算法如PBFT、PAXOS、RAFT则派上了用场，PAXOS则是第一个被证明的共识算法。本文限于篇幅，PAXOS和RAFT留待后续。">
-<meta name="twitter:image" content="http://www.brainware360.cn/区块链共识算法：实用拜占庭容错机制PBFT/PBFT三阶段协议.png">
+<meta name="twitter:description" content="共识机制是区块链的核心组成部分，以POW、POS以及DPOS等为代表的共识机制运行需要以代币为基础，即需要发行各自的货币体系来构成各自网络运行的激励机制，而在于节点已经有一定的互信基础且不需要靠代币来支撑整个网络的区块链，传统的一致性算法如PBFT、PAXOS、RAFT则派上了用场，PAXOS则是第一个被证明的共识算法。。">
+<meta name="twitter:image" content="http://www.brainware360.cn/区块链共识算法：实用拜占庭容错机制PBFT/raft.png">
 
 
 
@@ -407,8 +408,25 @@
       
 
       
-        <p>　　共识机制是区块链的核心组成部分，以POW、POS以及DPOS等为代表的共识机制运行需要以代币为基础，即需要发行各自的货币体系来构成各自网络运行的激励机制，而在于节点已经有一定的互信基础且不需要靠代币来支撑整个网络的区块链，传统的共识算法如PBFT、PAXOS、RAFT则派上了用场，PAXOS则是第一个被证明的共识算法。本文限于篇幅，PAXOS和RAFT留待后续。</p>
- <a id="more"></a>
+        <p>　　共识机制是区块链的核心组成部分，以POW、POS以及DPOS等为代表的共识机制运行需要以代币为基础，即需要发行各自的货币体系来构成各自网络运行的激励机制，而在于节点已经有一定的互信基础且不需要靠代币来支撑整个网络的区块链，传统的一致性算法如PBFT、PAXOS、RAFT则派上了用场，PAXOS则是第一个被证明的共识算法。。</p>
+<a id="more"></a>
+<p>　　<strong>Paxos算法</strong></p>
+<p>　　Paxos算法是一种两阶段算法，主要有三类角色，proposer、acceptor、learner，proposer提出议案，acceptor同意或拒绝，learner则是获取达成共识后的最终值。</p>
+<p>　　准备阶段：</p>
+<p>　　proposer 选择一个提案编号 n 并将 prepare 请求发送给 acceptors 中的一个多数派；</p>
+<p>　　acceptor 收到 prepare 消息后，如果提案的编号大于它已经回复的所有 prepare 消息，则 acceptor 将自己上次接受的提案回复给 proposer，并承诺不再回复小于 n 的提案；</p>
+<p>　　批准阶段：</p>
+<p>　　当一个 proposor 收到了多数 acceptors 对 prepare 的回复后，就进入批准阶段。它要向回复 prepare 请求的 acceptors 发送 accept 请求，包括编号 n 和value（如果没有已经接受的 value，那么它可以自由决定 value）。</p>
+<p>　　在不违背自己向其他 proposer 的承诺的前提下，acceptor 收到 accept 请求后即接受这个请求。<br>　　<br>　　Paxos算法适用于简单容错模型，即系统中只可能存在失效或故障节点，不存在恶意节点，如果失效节点数为x，则只需要未失效节点数为x+1就能维持系统的正常工作。</p>
+<p>　　<strong>Raft算法</strong></p>
+<p>　　Raft算法包含三种角色，分别是：跟随者（follower），候选人（candidate）和领导者（leader）。一个节点在某一时刻只能是这三种状态的其中一种，这三种角色是可以随着时间和条件的变化而互相转换的。</p>
+<p>　　所有的节点初始状态都为follower，超时未收到心跳包的follower将变身candidate并广播投票请求，获得多数投票的节点将化身leader，这一轮投票的过程是谁先发出谁有利，每个节点只会给出一次投票。leader节点周期性给其他节点发送心跳包，leader节点失效将会引发新一轮的投票过程。</p>
+<p>　　<img src="/区块链共识算法：实用拜占庭容错机制PBFT/raft.png" alt="logo"></p>
+<p>　　上图描述了一个Raft提案的执行过程：</p>
+<p>　　leader收到客户端发来的请求，写入本地日志，但写入日志的条目在提交状态机之前需要将请求发给所有follower请求验证；</p>
+<p>　　follower对收到的信息进行验证，验证成功后写入本地日志并返回leader验证成功标识；</p>
+<p>　　leader收到大部分的follower节点验证信息后，就会将当前的日志提交，更新节点的值，并广播更新所有follower节点的值，从而再一次达成共识；</p>
+<p>　　Raft算法从节点不会拒绝主节点的请求，并且和Paxos一样只能容错故障或失效节点。</p>
 <p>　　<strong>实用拜占庭容错机制PBFT</strong></p>
 <p>　　PBFT算法由Miguel Castro和 Barbara Liskov 1999年提出，初衷是为解决分布式系统中达成一致性的问题，与区块链共识机制的目标重合，其主要特点是网络具有高度容错性，在一个有3f + 1个节点的网络中，失效节点数为f，网络依然能够正常运行，容错率接近33%。目前，中国ChinaLedger 联盟和HyperLedger联盟就在研究探讨PBFT的实际应用。</p>
 <p>　　算法首先需要引入视图(View)和验证节点(replica)的概念，replica包含主节点和备份节点。主节点(primary)依据某个公式选取，选取好之后，其他replica节点就成为备份(backups)节点。主节点有效时是表示处于同一幅视图当中，当主节点失效时，备份节点检测到之后需要通过timeout机制启动视图更换（view change）过程，选举新的主节点。整个算法流程如下：首先，由某个客户端向主节点发起服务请求，主节点将请求分发给所有备份节点，备份节点处理完后再全部回馈给客户端，客户端只要收到f + 1个节点回馈的相同结果即为算法的最终结果。</p>
@@ -421,7 +439,7 @@
 <p>　　如果连续执行了K条请求，在第K条请求执行完时，向全网发起广播，告诉其他replica节点它已经将这K条执行完毕，要是都反馈说这K条我们也执行完毕了，那就可以删除这K条的信息了，接下来再执行K条，完成后再发起一次广播，即每隔K条发起一次全网共识，这个概念叫checkpoint，每隔K条去征求一下大家的意见，要是获得了大多数的认同，就形成了一个 stable checkpoint（记录在第K条的编号），这一机制被称为“Garbage Collection”。</p>
 <p>　　PBFT是一种静态共识， 在得知有限共识节点的情况可以适用。对于私有链和联盟链，如果节点数不大(不大于100)，可采用PBFT形成共识，公有链拥有大量且不断动态变化的节点网络，PBFT由于其封闭性（节点数目提前确定并互相联通）和高性能开销(O(N^2)的消息量)，以及复杂的view change算法和开销，用PBFT效率太低。</p>
 <p>　　使用PBFT算法还需要注意的一点是，其不能很好的存贮其交易信息，一些失效的副本可能会导致信息外泄，应有相应应对机制。</p>
-<p>我的BTC地址：1K8ni4mnQn7VjFZKjHJHLPWZ55owG9J1jd</p>
+<p>我的BTC地址：1K8ni4mnQn7VjFZKjHJHLPWZ55owG9J1jd<br>我的邮箱：mch200610@163.com，欢迎批评指正！</p>
 
       
     </div>
