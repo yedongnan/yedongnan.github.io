@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.brainware360.cn/"/>
-  <updated>2019-06-06T04:21:21.550Z</updated>
+  <updated>2019-06-10T07:16:10.965Z</updated>
   <id>http://www.brainware360.cn/</id>
   
   <author>
@@ -15,6 +15,22 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博弈论：监管者的角色</title>
+    <link href="http://www.brainware360.cn/%E5%8D%9A%E5%BC%88%E8%AE%BA%EF%BC%9A%E7%9B%91%E7%AE%A1%E8%80%85%E7%9A%84%E8%A7%92%E8%89%B2.html"/>
+    <id>http://www.brainware360.cn/博弈论：监管者的角色.html</id>
+    <published>2019-06-10T07:14:56.000Z</published>
+    <updated>2019-06-10T07:16:10.965Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　在市场经济中，经济学家们总是推崇市场自我调节的力量，有些极端的例子是认为对于市场的任何监管都是不好的，而在某些市场调节失灵的时候，老百姓总希望政府能够出面保护他们的利益。博弈论认为，政府的监管并不是一个特殊的角色，在遵循一定的规则的前提下，监管者也是一个player。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>更高维度的博弈是合谋</title>
@@ -359,24 +375,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>区块链背后的关键技术</title>
-    <link href="http://www.brainware360.cn/%E5%8C%BA%E5%9D%97%E9%93%BE%E8%83%8C%E5%90%8E%E7%9A%84%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF.html"/>
-    <id>http://www.brainware360.cn/区块链背后的关键技术.html</id>
-    <published>2018-02-07T02:13:59.000Z</published>
-    <updated>2019-05-14T03:32:30.863Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;　　区块链本质上是一种分布式数据库，其中存储的每一个区块都是一次交易信息，其核心思想主要有三条，一是去中心化，不存在任何中心机构和中心服务器，连它的创始人都没有出来过，实现节点与节点间的直接交互；二是开放和透明性，系统是完全开放透明的，账簿对所有人公开；三是不可篡改和不可撤销性，区块链采取单向哈希算法，每个新产生的区块严格按照时间线形顺序推进，具有不可篡改和不可撤销性。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="区块链 哈希算法" scheme="http://www.brainware360.cn/tags/%E5%8C%BA%E5%9D%97%E9%93%BE-%E5%93%88%E5%B8%8C%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
