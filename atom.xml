@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.brainware360.cn/"/>
-  <updated>2019-06-10T07:18:29.885Z</updated>
+  <updated>2019-06-11T02:56:16.977Z</updated>
   <id>http://www.brainware360.cn/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博弈论：先下手为强</title>
+    <link href="http://www.brainware360.cn/%E5%8D%9A%E5%BC%88%E8%AE%BA%EF%BC%9A%E5%85%88%E4%B8%8B%E6%89%8B%E4%B8%BA%E5%BC%BA.html"/>
+    <id>http://www.brainware360.cn/博弈论：先下手为强.html</id>
+    <published>2019-06-11T02:54:38.000Z</published>
+    <updated>2019-06-11T02:56:16.977Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　博弈论本身并不是一个含情脉脉的劝大家合作的理论，博弈论的出发点是从自身利益出发寻求最优的选项，如果符合己方利益，博弈论甚至认为可以先下手为强，逼迫对方按照自己的意愿合作。就像下棋一样，通过先出招，将对方引到自己希望的处境中，营造一个对自己有利的博弈格局。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="博弈论 悬崖策略" scheme="http://www.brainware360.cn/tags/%E5%8D%9A%E5%BC%88%E8%AE%BA-%E6%82%AC%E5%B4%96%E7%AD%96%E7%95%A5/"/>
+    
+  </entry>
   
   <entry>
     <title>博弈论：监管者的角色</title>
@@ -352,28 +370,6 @@
     <summary type="html">
     
       &lt;p&gt;　　区块链技术随着比特币出现后，其应用随着进入领域的不同被划分了几个阶段，比较常见的是划分成三个阶段。&lt;br&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>渔唱晚舟</title>
-    <link href="http://www.brainware360.cn/%E6%B8%94%E5%94%B1%E6%99%9A%E8%88%9F.html"/>
-    <id>http://www.brainware360.cn/渔唱晚舟.html</id>
-    <published>2018-02-07T02:22:31.000Z</published>
-    <updated>2018-02-07T02:23:29.169Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;img src=&quot;/渔唱晚舟/渔唱晚舟.jpg&quot;
-        
-      
     
     </summary>
     
