@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.brainware360.cn/"/>
-  <updated>2019-06-12T02:48:58.142Z</updated>
+  <updated>2019-06-13T04:48:18.784Z</updated>
   <id>http://www.brainware360.cn/</id>
   
   <author>
@@ -15,6 +15,22 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博弈论：后发优势</title>
+    <link href="http://www.brainware360.cn/%E5%8D%9A%E5%BC%88%E8%AE%BA%EF%BC%9A%E5%90%8E%E5%8F%91%E4%BC%98%E5%8A%BF.html"/>
+    <id>http://www.brainware360.cn/博弈论：后发优势.html</id>
+    <published>2019-06-13T04:46:36.000Z</published>
+    <updated>2019-06-13T04:48:18.784Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　先下手确实可以占据一定优势，占据赛道，对后来者造成挤压效应，形成壁垒。你占领了一个认知，就拥有了一批从事这个领域的专业人才、网络以及忠实的用户，再进入这个领域的人就会很被动。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>博弈论：建立可信的威胁与承诺</title>
@@ -350,28 +366,6 @@
     <summary type="html">
     
       &lt;p&gt;　　区块链可以理解为一个保存在所有节点的分布式大账簿，开放性是其鲜明的特点，区块链中的任意节点均可查询每一笔交易信息。比特币即是如此，当然，每一个节点都是匿名的。随着区块链技术从比特币中被提炼出来，为适用于不同类型的应用场景，区块链又在原有比特币的公有链的基础上发展出了私有链以及两者的混合产物，即联盟链。&lt;br&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>渺远飞河</title>
-    <link href="http://www.brainware360.cn/%E6%B8%BA%E8%BF%9C%E9%A3%9E%E6%B2%B3.html"/>
-    <id>http://www.brainware360.cn/渺远飞河.html</id>
-    <published>2018-02-11T02:11:07.000Z</published>
-    <updated>2018-02-12T01:23:29.466Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;img src=&quot;/渺远飞河/pexels-photo-355465.jpeg&quot;
-        
-      
     
     </summary>
     
