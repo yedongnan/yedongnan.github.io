@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.brainware360.cn/"/>
-  <updated>2019-06-14T03:24:07.119Z</updated>
+  <updated>2019-06-18T14:21:25.734Z</updated>
   <id>http://www.brainware360.cn/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博弈论：发信号</title>
+    <link href="http://www.brainware360.cn/%E5%8D%9A%E5%BC%88%E8%AE%BA%EF%BC%9A%E5%8F%91%E4%BF%A1%E5%8F%B7.html"/>
+    <id>http://www.brainware360.cn/博弈论：发信号.html</id>
+    <published>2019-06-18T14:20:16.000Z</published>
+    <updated>2019-06-18T14:21:25.734Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;　　博弈论研究的是人群中各个理性个体彼此互动的理论，可以解释很多现实中的很多局面，一些你原本认为互不关联的事情，却有着相同的动机和出发点。&lt;br&gt;　　你抨击数学教育，觉得许多艰深的数学理论在工作之后用到的少之又少，却在上学阶段花去了我们大量的时间，有这些时间多学点学以致用的
+        
+      
+    
+    </summary>
+    
+    
+      <category term="博弈论 信息筛选" scheme="http://www.brainware360.cn/tags/%E5%8D%9A%E5%BC%88%E8%AE%BA-%E4%BF%A1%E6%81%AF%E7%AD%9B%E9%80%89/"/>
+    
+  </entry>
   
   <entry>
     <title>博弈论：随机性是最大的诡道</title>
@@ -346,28 +370,6 @@
         
         
           &lt;p&gt;&lt;img src=&quot;/每一个不曾起舞的日子，都是对生命的辜负/1.JPG&quot;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1990年旅行者号回望地球</title>
-    <link href="http://www.brainware360.cn/%E6%97%85%E8%A1%8C%E8%80%85%E5%8F%B7%E5%9B%9E%E6%9C%9B%E5%9C%B0%E7%90%83.html"/>
-    <id>http://www.brainware360.cn/旅行者号回望地球.html</id>
-    <published>2018-02-12T02:01:29.000Z</published>
-    <updated>2018-02-26T01:05:00.719Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;img src=&quot;/旅行者号回望地球/暗淡蓝点，圈内即为我们所居住的地球PaleBlueDot.jpg&quot;
         
       
     
