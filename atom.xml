@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.brainware360.cn/"/>
-  <updated>2019-06-18T14:23:35.494Z</updated>
+  <updated>2019-06-20T10:48:59.767Z</updated>
   <id>http://www.brainware360.cn/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>没有尽头的博弈</title>
+    <link href="http://www.brainware360.cn/%E6%B2%A1%E6%9C%89%E5%B0%BD%E5%A4%B4%E7%9A%84%E5%8D%9A%E5%BC%88.html"/>
+    <id>http://www.brainware360.cn/没有尽头的博弈.html</id>
+    <published>2019-06-20T10:47:15.000Z</published>
+    <updated>2019-06-20T10:48:59.767Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　博弈论在英语里称作“Game Theory”，意为关于游戏的理论，打游戏要想赢，你必须非常理性。现实生活中，人时常都比较感性，而许多坏的决定都是在感性的时候做出的。博弈论是一门研究如何决策的学问，为了自己的利益，你的决策需要综合考虑对手的反应，也就是说，决策是一个互动的过程，提前想好的计划永远赶不上现实的变化，你还得随机应变。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="博弈论" scheme="http://www.brainware360.cn/tags/%E5%8D%9A%E5%BC%88%E8%AE%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>博弈论：发信号</title>
@@ -347,28 +365,6 @@
     
     
       <category term="区块链" scheme="http://www.brainware360.cn/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>每一个不曾起舞的日子，都是对生命的辜负</title>
-    <link href="http://www.brainware360.cn/%E6%AF%8F%E4%B8%80%E4%B8%AA%E4%B8%8D%E6%9B%BE%E8%B5%B7%E8%88%9E%E7%9A%84%E6%97%A5%E5%AD%90%EF%BC%8C%E9%83%BD%E6%98%AF%E5%AF%B9%E7%94%9F%E5%91%BD%E7%9A%84%E8%BE%9C%E8%B4%9F.html"/>
-    <id>http://www.brainware360.cn/每一个不曾起舞的日子，都是对生命的辜负.html</id>
-    <published>2018-03-13T06:27:04.000Z</published>
-    <updated>2018-03-13T09:11:13.319Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;img src=&quot;/每一个不曾起舞的日子，都是对生命的辜负/1.JPG&quot;
-        
-      
-    
-    </summary>
-    
     
   </entry>
   
