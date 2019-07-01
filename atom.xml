@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.brainware360.cn/"/>
-  <updated>2019-06-21T11:02:13.510Z</updated>
+  <updated>2019-07-01T13:03:07.276Z</updated>
   <id>http://www.brainware360.cn/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>成功公式：谁不是金子呢</title>
+    <link href="http://www.brainware360.cn/%E6%88%90%E5%8A%9F%E5%85%AC%E5%BC%8F%EF%BC%9A%E8%B0%81%E4%B8%8D%E6%98%AF%E9%87%91%E5%AD%90%E5%91%A2.html"/>
+    <id>http://www.brainware360.cn/成功公式：谁不是金子呢.html</id>
+    <published>2019-07-01T12:56:47.000Z</published>
+    <updated>2019-07-01T13:03:07.276Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;　　《成功公式》告诉我们，别太轻易相信是金子总能发光，鹤立鸡群也许是因为你走错了片场。&lt;br&gt;　　首先，一个行业高水平的竞争者之中，水平的差距本就没有那么大。巴拉巴西的研究表明，同一种酒分成三次交给品酒师们去品鉴，这些品酒师给出了三个差别极大的结果，能够自始自终给出差不多分
+        
+      
+    
+    </summary>
+    
+    
+      <category term="博弈论 网络" scheme="http://www.brainware360.cn/tags/%E5%8D%9A%E5%BC%88%E8%AE%BA-%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>《成功公式》：你的成功谁决定</title>
@@ -347,22 +371,6 @@
     
     
       <category term="区块链" scheme="http://www.brainware360.cn/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>区块链共识机制之权益证明POS和委托权益证明DPOS</title>
-    <link href="http://www.brainware360.cn/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%85%B1%E8%AF%86%E6%9C%BA%E5%88%B6%E4%B9%8B%E6%9D%83%E7%9B%8A%E8%AF%81%E6%98%8EPOS%E5%92%8C%E5%A7%94%E6%89%98%E6%9D%83%E7%9B%8A%E8%AF%81%E6%98%8EDPOS.html"/>
-    <id>http://www.brainware360.cn/区块链共识机制之权益证明POS和委托权益证明DPOS.html</id>
-    <published>2018-03-30T08:10:58.000Z</published>
-    <updated>2018-04-03T01:30:44.024Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;　　工作量证明算法作为区块链第一个也是目前经受住足够实践检验的一个共识机制，解决的是分布式系统交易信息一致性的问题，在一个去中心化的网络中构建了彼此不信任节点的信任机制，也是比特币成功应用的关键技术环节。&lt;br&gt;&lt;/p&gt;
-    
-    </summary>
-    
     
   </entry>
   
