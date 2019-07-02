@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.brainware360.cn/"/>
-  <updated>2019-07-01T13:27:36.170Z</updated>
+  <updated>2019-07-02T14:55:32.425Z</updated>
   <id>http://www.brainware360.cn/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>观《河西走廊》</title>
+    <link href="http://www.brainware360.cn/%E8%A7%82%E3%80%8A%E6%B2%B3%E8%A5%BF%E8%B5%B0%E5%BB%8A%E3%80%8B.html"/>
+    <id>http://www.brainware360.cn/观《河西走廊》.html</id>
+    <published>2019-07-02T14:53:42.000Z</published>
+    <updated>2019-07-02T14:55:32.425Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　这是一部豆瓣评分高达9.6的国产纪录片，激荡而又优美的旋律、栩栩如生的人物刻画、壮美绝伦的高山大漠、娓娓道来的宏篇叙事，令这部纪录片熠熠生辉。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="河西走廊" scheme="http://www.brainware360.cn/tags/%E6%B2%B3%E8%A5%BF%E8%B5%B0%E5%BB%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>成功公式：好的团队什么样</title>
@@ -346,22 +364,6 @@
     <summary type="html">
     
       &lt;p&gt;　　从7万年前的狩猎采集阶段的智人一直写道智人末日，人类简史摆开了一幅巨大的轮廓，将已知的人类历史试图写尽写透，智人从哪里来，将要走到哪里，智人甚至已经摆脱了大自然的自然选择过程，可以进行智能设计(生物工程、仿生工程、无机化)，可以自己选择大自然的演进，甚至是改变智人自己，演变而成超人类。&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hyperledger Fabric 1.0分析</title>
-    <link href="http://www.brainware360.cn/Hyperledger-Fabric-1-0%E5%88%86%E6%9E%90.html"/>
-    <id>http://www.brainware360.cn/Hyperledger-Fabric-1-0分析.html</id>
-    <published>2019-01-24T02:30:16.000Z</published>
-    <updated>2019-01-24T02:34:56.116Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;　　Hyperledger是linux基金会于2015年发起的推进区块链数字技术和交易验证的开源项目，有多个子集，Fabric是其中最成熟的一个，其由IBM 和Digital Asset最初贡献给Hyperledger项目。Fabric面向的对象主要是联盟链以及私有链等对于加入的节点需要设置一定准入门槛的区块链项目，其也是目前最有希望投入实际运用的区块链。&lt;/p&gt;
     
     </summary>
     
